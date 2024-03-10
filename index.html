@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE CALCULATOR</title>
+<link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <div class="container">
+
+    <table  border="2" cellpadding="5px" cellspacing="5px">
+        <caption> CALCULATOR</caption>
+        <tr> 
+            <td colspan="4" align="center" ><input  type="text" id="res"  ></td>
+        </tr>
+        <tr>
+            <td><button  onclick="ac()"><pre> C</pre></button></td>
+            <td><button  onclick="show('%')">%</button></td>        
+
+            <td><button  onclick="del()">del</button></td> 
+            <td><button  onclick="show('/')">/</button></td>
+
+
+
+        </tr>
+        <tr>
+            <td><button  onclick="show('7')"><pre> 7</pre></button></td>        
+            <td><button  onclick="show('8')"><pre> 8</pre></button></td>
+            <td><button  onclick="show('9')"><pre>  9</pre></button></td>
+            <td><button  onclick="show('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button  onclick="show('4')"><pre> 4</pre></button></td>        
+            <td><button  onclick="show('5')"><pre> 5</pre></button></td>
+            <td><button  onclick="show('6')"><pre>  6</pre></button></td>
+            <td><button  onclick="show('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button  onclick="show('1')"><pre> 1</pre></button></td>        
+            <td><button  onclick="show('2')"><pre> 2</pre></button></td>
+            <td><button  onclick="show('3')"><pre>  3</pre></button></td>
+            <td><button  onclick="show('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button  onclick="show('00')">00</button></td>        
+            <td><button  onclick="show('0')"><pre> 0</pre></button></td>
+            <td><button  onclick="show('.')"><pre>  .</pre></button></td>
+
+            <td><button  onclick="action('output')"><pre>=</pre></button></td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
